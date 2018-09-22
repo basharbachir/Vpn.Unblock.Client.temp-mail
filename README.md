@@ -1,5 +1,2 @@
 # Vpn.Unblock.Client.temp-mail
-Unlinited Accounts 
-Unlimited Bandwith
-Fast Vpn
-For Openenig Ports You Must Use PPTP Protocol 
+Unlimited Accounts Unlimited Bandwidth Fast Vpn For Opening Ports You Must Use PPTP Protocol
