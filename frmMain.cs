@@ -556,7 +556,7 @@ namespace VPN
                 driver.Navigate().GoToUrl("https://unblockvpn.com/create-account.php");
                 driver.FindElement(By.Id("full-name")).SendKeys(str);
                 driver.FindElement(By.Id("country")).SendKeys("g");
-                driver.FindElement(By.Id("email")).SendKeys(str + "@1blackmoon.com");
+                driver.FindElement(By.Id("email")).SendKeys(str + "@rupayamail.com");
                 driver.FindElement(By.Name("submit")).Submit();
                 driver.Close();
 
@@ -573,7 +573,7 @@ namespace VPN
 
                 var strr = new WebClient().DownloadString(driver2.Url);
 
-                edtLogin.Text = str + @"@1blackmoon.com";
+                edtLogin.Text = str + @"@rupayamail.com";
                 string toBeSearched = @"<br><strong>Password</strong>: ";
                 edtPassword.Text =
                     strr.Substring(strr.IndexOf(toBeSearched, StringComparison.Ordinal) + toBeSearched.Length)
